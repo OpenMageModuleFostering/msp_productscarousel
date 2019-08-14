@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * IDEALIAGroup srl
+ *
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to info@idealiagroup.com so we can send you a copy immediately.
+ *
+ * @category   MSP
+ * @package    MSP_ProductsCarousel
+ * @copyright  Copyright (c) 2012-2014 IDEALIAGroup srl (http://www.idealiagroup.com)
+ * @license    http://www.idealiagroup.com/magento-ext-license.html
+ */
+-->
+<widgets>
+	<msp_productscarousel_carousel type="msp_productscarousel/carousel" translate="description" module="msp_productscarousel">
+		<name>MSP ProductsCarousel</name>
+        
+        <description>MSP ProductsCarousel</description>
+        <parameters>
+            <id_path translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <label>Category</label>
+                <type>label</type>
+                <helper_block>
+                    <type>adminhtml/catalog_category_widget_chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Select Category...</open>
+                        </button>
+                    </data>
+                </helper_block>
+                <sort_order>10</sort_order>
+            </id_path>
+           
+            <pagination>
+            	<visible>1</visible>
+            	<required>1</required>
+                <label>Show paginations</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <sort_order>25</sort_order>
+            </pagination>
+            <paginationNumbers>
+            	<visible>1</visible>
+            	<required>1</required>
+                <label>Show paginations number</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <sort_order>30</sort_order>
+            </paginationNumbers>
+            
+            <cols>
+            	<visible>1</visible>
+            	<required>1</required>
+                <label>Columns</label>
+                <type>text</type>
+                <value>5</value>
+                <sort_order>40</sort_order>
+            </cols>
+            <max_slides>
+            	<visible>1</visible>
+            	<required>1</required>
+                <label>Max number of slides</label>
+                <type>text</type>
+                <value>10</value>
+                <sort_order>55</sort_order>
+            </max_slides>
+            
+            <randomize_order translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <value>0</value>
+                <label>Randomize order</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <sort_order>56</sort_order>
+            </randomize_order>   
+            
+            <image_width>
+            	<visible>1</visible>
+            	<required>1</required>
+                <label>Image size(in pixels)</label>
+                <type>text</type>
+                <value>120</value>
+                <sort_order>70</sort_order>
+            </image_width>  
+            <single_step translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <value>200</value>
+                <label>Step by one product</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <sort_order>85</sort_order>
+            </single_step>    
+            <speed>
+            	<visible>1</visible>
+            	<required>1</required>
+                <label>Slider transaction delay</label>
+                <type>text</type>
+                <value>1000</value>
+                <sort_order>90</sort_order>
+            </speed>
+            <autoplay translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <value>1</value>
+                <label>Auto Play</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <sort_order>110</sort_order>
+            </autoplay>
+            <loaderposition translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <value>1</value>
+                <label>Loading bar position</label>
+                <type>select</type>
+                <source_model>ig_productscarousel/source_loader_position</source_model>
+                <sort_order>115</sort_order>
+            </loaderposition>
+            <stophover translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <value>1</value>
+                <label>Stop on Hover</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <sort_order>120</sort_order>
+            </stophover>
+            <navigation translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <value>1</value>
+                <label>Show prev/next</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <sort_order>125</sort_order>
+            </navigation>
+             <responsive translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <value>1</value>
+                <label>Responsive</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <sort_order>130</sort_order>
+            </responsive>
+            
+            
+            
+            
+            <customcssclass translate="label">
+                <visible>1</visible>
+                <required>0</required>
+                <label>Custom css class</label>
+                <type>text</type>
+                <sort_order>200</sort_order>
+            </customcssclass>
+		</parameters>
+    </msp_productscarousel_carousel>
+</widgets>
+

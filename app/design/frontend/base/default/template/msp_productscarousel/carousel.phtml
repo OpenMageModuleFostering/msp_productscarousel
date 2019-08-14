@@ -1,0 +1,31 @@
+<?php
+/**
+ * IDEALIAGroup srl
+ *
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to info@idealiagroup.com so we can send you a copy immediately.
+ *
+ * @category   MSP
+ * @package    MSP_ProductsCarousel
+ * @copyright  Copyright (c) 2012-2014 IDEALIAGroup srl (http://www.idealiagroup.com)
+ * @license    http://www.idealiagroup.com/magento-ext-license.html
+ */
+?>
+<div class="owl-carousel owl-theme" id="<?php echo $this->getCarouselId() ?>">
+	
+		<?php echo $this->getProductsListHtml() ?>
+
+</div>
+<script type="text/javascript">
+           jQuery.noConflict();
+           jQuery(document).ready(function () {
+	jQuery('#<?php echo $this->getCarouselId() ?>').owlCarousel(<?php echo $this->getJsCarouselParams() ?>);
+});	
+</script>

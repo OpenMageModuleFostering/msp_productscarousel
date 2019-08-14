@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/MSP_ProductsCarousel",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Products Carousel",
+    "authors": [
+    {
+        "name": "Andrea Massinelli",
+        "email": "massinelli@idealiagroup.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

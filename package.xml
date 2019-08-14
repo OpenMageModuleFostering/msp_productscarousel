@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>MSP_ProductsCarousel</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Products Carousel</summary>
+    <description>  Products Carousel for your product image</description>
+    <notes>New feature&#xD;
+Bug fix</notes>
+    <authors><author><name>Andrea Massinelli</name><user>idealiagroup</user><email>massinelli@idealiagroup.com</email></author></authors>
+    <date>2014-05-09</date>
+    <time>07:35:53</time>
+    <contents><target name="magecommunity"><dir name="MSP"><dir name="ProductsCarousel"><dir name="Block"><file name="Abstract.php" hash="36c68768a9b5c904408e892374d5aa51"/><file name="Carousel.php" hash="dda44311395e18936acf7916bcbe0f6d"/><file name="Product.php" hash="c4f6dbcd9ff29b91bee45028d3b57b8b"/></dir><dir name="Helper"><file name="Data.php" hash="99b1d9b35fe9d0ce56d95a6a78928929"/></dir><dir name="Model"><dir name="Source"><file name="Activation.php" hash="26ca7b3e9b64150f9071a99b34a4d4dc"/><dir name="Dots"><file name="Position.php" hash="f1e234e7115cadb4ce4dd0d6fcc44bd2"/><file name="Style.php" hash="dd49bc210f8202faa798c64c94d47033"/></dir><file name="Easing.php" hash="9426d6dd9b5a3c966ab3596729b6fe97"/><file name="Effect.php" hash="5d67fbc4b18d88df5e1f83bfd5623681"/><dir name="Loader"><file name="Position.php" hash="5d74860cf847cd061d843d2965f40a85"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="cfcd4a1c5c1e9a0ea1ddf92f53854463"/><file name="widget.xml" hash="b1571215d19a556891e0bf1fc4f31fad"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="MSP_ProductsCarousel.xml" hash="9fb1a821852e62ae66680a634c551811"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="msp_productscarousel"><file name="carousel.phtml" hash="63ce92411a9a0d59834efbab768dfb75"/><file name="product.phtml" hash="0fbb29d7e76563861100a193b77e9458"/></dir></dir><dir name="layout"><file name="msp_productscarousel.xml" hash="75faf9bb1ee9f20ab67b1cc7a5d4cbb5"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="msp_productscarousel"><dir name="css"><file name="carousel.css" hash="d8925113c9f8490a6adf1e7c3b657ff2"/><file name="owl.carousel.css" hash="783f04b573ab6d378baf10c3be65e5bd"/><file name="owl.theme.css" hash="a766905fd2efba3c46f083bf342acc89"/><file name="owl.transitions.css" hash="b1bdaeac4065bf67a7d7a06213192964"/></dir><dir name="images"><file name="AjaxLoader.gif" hash="5b8b06c052cac80413d62e5c45f9f37b"/><file name="commands.png" hash="5ce11d3ec17d1dadc476d1d5fe6fccef"/><file name="dot.png" hash="e5195132689c98814fa25a4b04271d6c"/><file name="grabbing.png" hash="d817e1dba5bd5d891d0504bf1715807b"/></dir><dir name="js"><file name="carousel.js" hash="3a08ef98fb61bf8d959b55e51ad1d4cd"/><file name="jquery-1.11.1.min.js" hash="242361900ae3ebb31f8b9a62a9d549f6"/><file name="owl.carousel.js" hash="6e1cfb7b7c0d31738353b2f625ffca44"/><file name="owl.carousel.min.js" hash="2fec2de7cc7d2d9a66130311f52b5db8"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

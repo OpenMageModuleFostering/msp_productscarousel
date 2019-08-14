@@ -1,0 +1,11 @@
+1.0.0
+Initial release
+
+1.1.0
+New features:
+- Support responsive design
+- Use a owl carousel
+- Add a new label in widget configuration
+
+
+

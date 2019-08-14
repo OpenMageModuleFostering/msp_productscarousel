@@ -1,0 +1,139 @@
+/**
+ * IDEALIAGroup srl
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.idealiagroup.com/magento-ext-license.html
+ *
+ * @category   IG
+ * @package    IG_ProductsCarousel
+ * @copyright  Copyright (c) 2012-2013 IDEALIAGroup srl (http://www.idealiagroup.com)
+ * @license    http://www.idealiagroup.com/magento-ext-license.html
+ */
+
+.ig-productscarousel-item {
+	text-align: center;
+	display: none;
+	padding: 5px 0;
+}
+
+.ig-productscarousel-item .product-image img {
+	border: 1px solid #cccccc;
+}
+
+.ig-productscarousel-item .product-name a,
+.ig-productscarousel-item .product-name a:link,
+.ig-productscarousel-item .product-name a:visited {
+	text-decoration: none;
+}
+
+.ig-productscarousel-item .product-name a:hover {
+	color: #333333;
+}
+
+.ig-productscarousel-item .product-name {
+	height: 32px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+.ig-productscarousel-item .price-box {
+	height: 40px;
+}
+
+
+.ig-productscarousel .ig-productscarousel-loader-outerbar {
+	
+}
+.ig-productscarousel .ig-productscarousel-loader-innerbar {
+	height: 3px;
+	background: #cc0000;
+	opacity: .5;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-commands .ig-productscarousel-command {
+	width: 25%;
+	right: 0;
+	cursor: pointer;
+}
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-commands .ig-productscarousel-command-next {
+	right: 0;
+}
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-commands .ig-productscarousel-command-prev {
+	left: 0;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-commands .ig-productscarousel-command a {
+	background: url(../images/commands.png) no-repeat;
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	margin-top: -14px;
+	top: 50%;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-commands .ig-productscarousel-command-next a {
+	background-position: top right;
+	right: 5px;
+	cursor: pointer;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-commands .ig-productscarousel-command-prev a {
+	background-position: top left;
+	left: 5px;
+}
+
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-commands .ig-productscarousel-command-next:hover a {
+	background-position: bottom right;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-commands .ig-productscarousel-command-prev:hover a {
+	background-position: bottom left;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-dots {
+	margin: 10px;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-dots ul li {
+	float: left;
+	cursor: pointer;
+	display: block;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-dots ul li.ig-productscarousel-dot-dot {
+	background: url(../images/dot.png) top left  no-repeat;
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+}
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-dots ul li.ig-productscarousel-dot-dot.active {
+	background-position: bottom left;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-dots ul li.ig-productscarousel-dot-numeric {
+	background: #ffffff;
+	width: 20px;
+	height: 20px;
+	font-size: 11px;
+	line-height: 20px;
+	text-align: center;
+	margin-right: 2px;
+	display: block;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-dots ul li {
+	opacity: .5;
+}
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-dots ul li.active,
+.ig-productscarousel.ig-productscarousel-carousel .ig-productscarousel-dots ul li:hover {
+	opacity: 1;
+}
